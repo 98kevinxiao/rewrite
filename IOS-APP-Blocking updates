@@ -1,0 +1,18 @@
+# NAME: 屏蔽APP更新检查
+# REWRITE: 12
+# MITM: 12
+
+^https?:\/\/api\.ishansong\.com\/app\/check\/v\d+\/check url reject
+^https?:\/\/api\.m\.jd\.com\/openUpgrade url reject-dict
+^https?:\/\/apimobile\.meituan\.com\/appupdate\/mach\/checkUpdate? url reject
+^https?:\/\/apprn\.pizzahut\.com\.cn\/updateCheck\? url reject-dict
+^https?:\/\/capis(-?\w*)?\.didapinche\.com\/publish\/api\/upgrade url reject-dict
+^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade url reject-dict
+^https?:\/\/consumer\.fcbox\.com\/v1\/version\/getNewVersion url reject-dict
+^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/biz\/base\/appversion\/latest url reject
+^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/getclientconfig\.htm url reject-dict
+^https?:\/\/sso\.lxjapp\.com\/\/chims\/servlet\/csGetLatestSoftwareVersionServlet url reject-dict
+^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? url reject
+^https?:\/\/app\.ftms\.com\.cn\/V2\/index\/appversion url reject-dict
+
+hostname = api.ishansong.com,api.m.jd.com,apimobile.meituan.com,apprn.pizzahut.com.cn,capis*.didapinche.com,ccsp-egmas.sf-express.com,consumer.fcbox.com,fmapp.chinafamilymart.com.cn,m.client.10010.com,sso.lxjapp.com,www.meituan.com,*.ftms.com.cn
