@@ -1,0 +1,17 @@
+圈x破解和彩云天气pro
+ 
+# 和彩云pro破解
+
+^https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/mymoonyue/QuantumultX/master/Scripts/scripts/caiyun_svip.js
+
+https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caiyun.js
+
+[mitm]
+hostname = biz.caiyunapp.com，
+
+
+时间可以破解到2099年12月31日
+也可以改3030年
+这个是数值
+
+33481831192
