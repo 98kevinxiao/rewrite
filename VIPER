@@ -1,6 +1,6 @@
 hostname=viperhifi.kugou.com
 
-重写链接=^https?:\/\/(login\.user|viperhifi)\.kugou\.com\/(v5\/login_by_token|v1\/hifi\/membership\/vipinfo|v1\/membership\/vipuser)$ url script-response-body https://raw.githubusercontent.com/98kevinxiao/rewrite/main/VIPER
+^https?:\/\/(login\.user|viperhifi)\.kugou\.com\/(v5\/login_by_token|v1\/hifi\/membership\/vipinfo|v1\/membership\/vipuser)$ url script-response-body https://raw.githubusercontent.com/98kevinxiao/rewrite/main/VIPER
 
 
 本地脚本=
