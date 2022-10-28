@@ -8,7 +8,7 @@ unlock Egoreader PRO
 [rewrite_local]
 # unlock Ego_reader
 
-^https?:\/\/api\.pxmage\.com\/egoreader\/user\/info url script-response-body https://raw.githubusercontent.com/98kevinxiao/rewrite/main/ego.conf
+^https?:\/\/api\.pxmage\.com\/egoreader\/user\/info url script-response-body https://raw.githubusercontent.com/98kevinxiao/rewrite/main/Ego_reader.js
 [mitm]
 hostname = api.pxmage.com
 
