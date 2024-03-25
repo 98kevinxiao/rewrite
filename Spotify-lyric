@@ -1,0 +1,2 @@
+#调用百度翻译API翻译英文歌词为中文
+^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ url script-response-body https://raw.githubusercontent.com/98kevinxiao/javascript/main/spotify-lyric.js
